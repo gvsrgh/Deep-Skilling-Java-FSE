@@ -1,6 +1,4 @@
 /* Invetory management system for a warehouse */
-import java.util.Scanner; //For user input
-import java.util.ArrayList; //For storing products
 
 /*****
  * 1. Why DSA for handling inventory?
