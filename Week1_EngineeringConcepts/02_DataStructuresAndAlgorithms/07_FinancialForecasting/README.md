@@ -31,7 +31,7 @@ Used a recursive method that calculates average growth and applies it for the re
 
 ### 🖼 Output
 
-![Output](./Output/output.png)
+![Output](./Output/Output.png)
 
 ### ▶️ Run Instructions
 
