@@ -55,4 +55,4 @@ This repository contains an implementation of the **Factory Method Design Patter
 
 The output confirms each document type is being correctly opened:
 
-![Output](./Output.png)
+![Output](./Output/Output.png)

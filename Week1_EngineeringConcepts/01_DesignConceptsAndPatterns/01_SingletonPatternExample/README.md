@@ -17,7 +17,7 @@ System.out.println(lgp == lgp1 ? "Same Instances" : "Different Instances");
 
 Below is the sample terminal output after running the test class:
 
-![Singleton Output](./assets/Output.png)
+![Singleton Output](./Output/Output.png)
 
 ## 💡 Key Concepts
 

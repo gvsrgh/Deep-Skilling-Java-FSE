@@ -1,3 +1,4 @@
+package Code;
 /* Invetory management system for a warehouse */
 
 /*****
