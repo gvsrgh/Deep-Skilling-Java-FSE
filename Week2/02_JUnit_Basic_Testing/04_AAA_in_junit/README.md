@@ -26,10 +26,10 @@ You need to organize your tests using the Arrange-Act-Assert (AAA) pattern and u
 
 > When all test cases pass as expected:
 
-![Success Output](./OUTPUT/Success.png)
+![Success Output](./Output/Success.png)
 
 ## ❌ Output - Failure Case
 
 > When an assertion fails (e.g., incorrectly expecting a non-prime to be prime):
 
-![Failure Output](./OUTPUT/Failure.png)
+![Failure Output](./Output/Failure.png)
