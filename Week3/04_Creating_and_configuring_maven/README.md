@@ -45,7 +45,7 @@ Update [`pom.xml`](./Code/LibraryManagement/pom.xml) (click to visit):
 
 ### 3️⃣ Configure Maven Plugins
 
-Also inside [`pom.xml`](./LibraryManagement/pom.xml):
+Also inside [`pom.xml`](./Code/LibraryManagement/pom.xml):
 
 ```xml
 <build>
