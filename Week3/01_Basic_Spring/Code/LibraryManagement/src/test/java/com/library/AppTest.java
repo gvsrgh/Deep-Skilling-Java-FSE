@@ -1,4 +1,4 @@
-package com.example.LibraryManagement;
+package com.library;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

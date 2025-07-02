@@ -5,9 +5,9 @@ Welcome to my Deep Skilling journey as part of the **Digital Nurture 4.0 Java Fu
 ## 📅 Schedule Overview (8 Weeks)
 | Week | Modules Covered |
 |------|------------------|
-| Week 1 | Design Patterns & DSA |
-| Week 2 | PL/SQL & Unit Testing |
-| Week 3 | Spring Core, Maven, Spring Data JPA |
+| Week 1 | [`Design Patterns & DSA`](./Week1_EngineeringConcepts/) |
+| Week 2 | [`PL/SQL & Unit Testing`](./Week2/) |
+| Week 3 | [`Spring Core, Maven, Spring Data JPA`](./Week3/) |
 | Week 4 | Spring REST |
 | Week 5 | Microservices |
 | Week 6–7 | React |

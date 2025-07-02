@@ -1,4 +1,4 @@
-# Exercise 1: Configuring a Basic Spring Application
+# ✅ Exercise 1: Configuring a Basic Spring Application
 
 ## 📘 Scenario
 
@@ -14,13 +14,13 @@ Your company is developing a web application for managing a library. You need to
 ```xml
 <dependency>
     <groupId>org.springframework</groupId>
-    <artifactId>spring-core</artifactId>
+    <artifactId>spring-context</artifactId>
     <version>6.2.7</version>
 </dependency>
 <dependency>
     <groupId>org.springframework</groupId>
-    <artifactId>spring-context</artifactId>
-    <version>5.3.36</version>
+    <artifactId>spring-core</artifactId>
+    <version>6.2.7</version>
 </dependency>
 <dependency>
     <groupId>junit</groupId>
@@ -42,26 +42,31 @@ Your company is developing a web application for managing a library. You need to
            https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define BookRepository bean -->
-    <bean id="bookRepository" class="com.example.LibraryManagement.BookRepository"/>
+    <bean id="bookRepository" class="com.library.repository.BookRepository"/>
 
     <!-- Define BookService bean and inject BookRepository -->
-    <bean id="bookService" class="com.example.LibraryManagement.BookService">
+    <bean id="bookService" class="com.library.service.BookService">
         <property name="bookRepository" ref="bookRepository"/>
     </bean>
-
 </beans>
 ```
 
 ### 3️⃣ Define Service and Repository Classes
 
-* Create service class: [`BookService.java`](./Code/LibraryManagement/src/main/java/com/example/LibraryManagement/BookService.java) (click to visit)
-* Create repository class: [`BookRepository.java`](./Code/LibraryManagement/src/main/java/com/example/LibraryManagement/BookRepository.java) (click to visit)
+* Create service class: [`BookService.java`](./Code/LibraryManagement/src/main/java/com/library/service/BookService.java) (click to visit)
+* Create repository class: [`BookRepository.java`](./Code/LibraryManagement/src/main/java/com/library/repository/BookRepository.java) (click to visit)
 
 ### 4️⃣ Run the Application
 
-* Create main class to load Spring context and test: [`MainApp.java`](./Code/LibraryManagement/src/main/java/com/example/LibraryManagement/MainApp.java) (click to visit)
+* Create main class to load Spring context and test: [`App.java`](./Code/LibraryManagement/src/main/java/com/library/App.java) (click to visit)
 
-## 💻 Output Screenshot
+## 💻 Project Structure
+
+Project view in Eclipse:
+
+![Project Structure](./Output/ProjectStructure.png)
+
+## 💬 Output Screenshot
 
 Console output after running the Spring application:
 
