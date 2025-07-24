@@ -100,6 +100,8 @@ npm start
 #### Output of the react app
 ![Running the React app](./Output/02_running_react_app.png)
 
+[`React Notes`](../01_react_HOL/README.md) - This file contains additional notes and resources related to React.
+
 ### Explain React Components
 React components are the building blocks of a React application. They allow developers to break down the UI into reusable pieces, making it easier to manage and maintain the code. Each component can have its own state and props, enabling dynamic rendering based on user interactions or data changes.
 Components can be functional or class-based, with functional components being the preferred approach in modern React development. They can also be nested, allowing for complex UIs to be constructed from simple, isolated components. React's component-based architecture promotes reusability and separation of concerns, making it a powerful tool for building interactive user interfaces.
