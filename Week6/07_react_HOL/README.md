@@ -97,3 +97,34 @@ npm start
 
 ## Output
 ![Online Shopping App Output](./Output/Output.png)
+
+### Define what are Props
+Props (short for "properties") are a mechanism in React that allows you to pass data from one component to another, typically from a parent component to a child component. They are read-only and help in making components reusable by allowing them to receive dynamic data. Props can be any type of data, including strings, numbers, arrays, objects, or even functions.
+
+### Explain Default Props
+Default props are a feature in React that allows you to define default values for props in a component. If a parent component does not provide a value for a specific prop, the component will use the default value instead. This is useful for ensuring that components have predictable behavior and can handle cases where certain props are not provided.
+
+### Identify the difference between Props and State
+Props and state are both used to manage data in React, but they serve different purposes:
+- **Props**:
+    - Are used to pass data from a parent component to a child component.
+    - Are read-only and cannot be modified by the child component.
+    - Help in making components reusable and dynamic.
+- **State**:
+    - Is used to manage data that can change within a component.
+    - Is mutable and can be updated using the `setState` method.
+    - Allows components to respond to user interactions and other events.
+
+### Explain reactDOM.render()
+`reactDOM.render()` is a method provided by the ReactDOM library that is used to render a React component into the DOM. It takes two arguments: the React element (or component) to be rendered and the DOM node where it should be rendered. This method is typically called in the entry point of a React application (usually `index.js`) to mount the root component of the application onto a specific HTML element, such as a `<div>` with an `id` of "root".
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+```
