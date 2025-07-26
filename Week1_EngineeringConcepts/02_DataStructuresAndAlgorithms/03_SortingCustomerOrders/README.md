@@ -109,3 +109,9 @@ public class Main {
 ## Output
 
 !['Output of the sorting program'](./Output/Output.png)
+
+### Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort)
+- **Bubble Sort**: A simple comparison-based algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It has a time complexity of O(n^2) in the worst case.
+- **Insertion Sort**: Builds a sorted array one element at a time by repeatedly taking the next element and inserting it into the correct position in the already sorted part of the array. It has a time complexity of O(n^2) in the worst case.
+- **Quick Sort**: A divide-and-conquer algorithm that selects a 'pivot' element and partitions the array into two halves, recursively sorting the sub-arrays. It has an average time complexity of O(n log n) and is generally faster than Bubble Sort.
+- **Merge Sort**: Another divide-and-conquer algorithm that divides the array into halves, sorts each half, and then merges them back together. It has a time complexity of O(n log n) and is stable.
