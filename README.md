@@ -11,5 +11,5 @@ Welcome to my Deep Skilling journey as part of the **Digital Nurture 4.0 Java Fu
 | Week 4 | [`Spring REST`](./Week4/) |
 | Week 5 | [`Microservices`](./Week5/) |
 | Week 6 | [`React`](./Week6/) |
-| Week 7 | React |
+| Week 7 | [`React`](./Week7/) |
 | Week 8 | GIT, CI/CD, DevOps, Docker, Cloud and GenAI fundamentals |
