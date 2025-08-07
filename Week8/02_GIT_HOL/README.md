@@ -1,5 +1,7 @@
 # Hands-on: 2. Git HOL
 
+Check GitDemo repository here - [GitDemo](https://github.com/gvsrgh/GitDemo)
+
 ## Scenario
 Create a “.log” file and a log folder in the working directory of Git. Update the .gitignore file in such a way that on committing, these files (.log extensions and log folders) are ignored.
 Verify if the git status reflects the same about working directory, local repository and git repository. 
