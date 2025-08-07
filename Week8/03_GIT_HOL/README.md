@@ -42,6 +42,9 @@ Merging:
 #### Git Status after merging
 ![Git Status After Merging](./Output/07_git_status.png)
 
+#### Deleting branch after merging
+![Deleting Branch](./Output/08_deleting_the_git_branch.png)
+
 #### Explain branching and merging
 Branching in Git allows you to create a separate line of development, enabling you to work on features or fixes independently from the main codebase. Merging is the process of integrating changes from one branch into another, typically from a feature branch back into the main branch (often called `main` or `master`).
 
